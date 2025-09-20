@@ -1,0 +1,51 @@
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f3f4f6; /* light gray */
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Style for the main 404 text */
+.split-parent {
+  font-size: 4rem;       /* big 404 text */
+  font-weight: 700;      /* bold */
+  color: #ef4444;        /* red-500 */
+  line-height: 1.2;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* Each animated character */
+.split-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+/* Subtitle below main text */
+.subtitle {
+  font-size: 1.25rem;   /* text-lg */
+  color: #4b5563;       /* gray-600 */
+  margin-top: 1rem;
+}
+
+/* Go Home button */
+.btn-home {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #3b82f6;  /* blue-500 */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+  background-color: #2563eb; }
